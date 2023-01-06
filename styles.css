@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/Lato-Regular.ttf');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #ff6b28;
+}
+
+h1{
+  padding-top:1em;
+  font-weight: bold;
+  font-size:3em;
+  margin-bottom:2em;
+}
+
+h2 {
+  text-transform:capitalize;
+  font-size:2em;
+}
+
+#topbar {
+  height:2em;
+  padding:1em;
+  background-color: #ff6b28;
+  text-align: center;
+}
+
+#logo {
+  height:100%;
+}
+
+#hero {
+  height:25em;
+  background-image: url('./images/hero_bolo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#recipe {
+  width: 60%;
+  margin:auto;
+}
+
+#ingredients {
+  width:85%;
+  margin:auto;
+  padding-bottom:1em;
+  cursor: url('./images/cursor_ingredientes.png'), cell;
+}
+
+#ingredients:hover{
+  box-shadow: 10px 10px 10px #ccc;
+  border-radius: 10px;
+
+}
+
+#ingredients>ul>li{
+  color:black;
+  font-size:1.3em;
+}
+
+#buy-button {
+  margin-top: 3em;
+  width: 30%;
+}
+
+#buy-button>a{
+  text-decoration: none;
+  background-color:#ff6b28;
+  color:white;
+  font-size:1.5em;
+  padding:0.5em;
+  border-radius: 0.7em;
+}
+
+#prep {
+  border-style: solid;
+}
