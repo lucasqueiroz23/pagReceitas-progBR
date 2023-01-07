@@ -46,22 +46,42 @@ h2 {
   margin:auto;
 }
 
-#ingredients {
+#ingredients, 
+#prep,
+#additional-instructions {
   width:85%;
   margin:auto;
-  padding-bottom:1em;
-  cursor: url('./images/cursor_ingredientes.png'), cell;
+  padding:3em;
+  border-width: 1px;
+}
+
+#ingredients:hover,
+#prep:hover,
+#additional-instructions:hover {
+  box-shadow: 10px 10px 10px #ccc;
+  border-radius: 10px;
+  border-style:solid;
+  border-color:rgb(241, 238, 238);
 }
 
 #ingredients:hover{
-  box-shadow: 10px 10px 10px #ccc;
-  border-radius: 10px;
-
+  cursor: url('./images/cursor_ingredientes.png'), cell;
 }
 
-#ingredients>ul>li{
+#prep:hover{
+  cursor: url('./images/cursor_preparo.png'), cell;
+}
+
+#additional-instructions:hover{
+  cursor: url('./images/cursor_intrucoes.png'), cell;
+}
+
+
+#ingredients>ul>li,
+#prep>ol>li{
   color:black;
   font-size:1.3em;
+  line-height: 2em;
 }
 
 #buy-button {
@@ -78,6 +98,35 @@ h2 {
   border-radius: 0.7em;
 }
 
-#prep {
-  border-style: solid;
+#prep,
+#additional-instructions {
+  margin-top:8em;
+}
+
+#additional-instructions>p {
+  color:black;
+  font-size:1.5em;
+}
+
+#footer {
+  padding:2em;
+  margin-top:8em;
+  background-color: #ff6b28;
+  color: white;
+  text-align: center;
+  font-size:1.5em;
+}
+
+#footer-text {
+  width:40%;
+  margin: auto;
+}
+
+#footer-text>a{
+  text-decoration: none;
+  color: white;
+}
+
+#footer-text>a:hover{
+  color: black;
 }
