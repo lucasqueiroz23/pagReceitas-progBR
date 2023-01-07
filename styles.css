@@ -46,6 +46,7 @@ h2 {
   margin:auto;
 }
 
+/*Isso daqui poderia ter virado uma classe...*/
 #ingredients, 
 #prep,
 #additional-instructions {
@@ -55,6 +56,7 @@ h2 {
   border-width: 1px;
 }
 
+/*Isso daqui poderia ter sido o hover de uma classe...*/
 #ingredients:hover,
 #prep:hover,
 #additional-instructions:hover {
